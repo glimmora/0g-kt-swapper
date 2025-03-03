@@ -1,0 +1,17 @@
+{
+    "name": "0g-kt-swapper",
+    "version": "1.0.0",
+    "description": "Automated multi-tasking swap bot for 0G KT using multiple .env configurations",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "web3": "^1.10.0"
+    },
+    "devDependencies": {},
+    "author": "glimmora",
+    "license": "MIT"
+  }
+  
