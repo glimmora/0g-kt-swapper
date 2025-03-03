@@ -7,8 +7,8 @@ const dotenv = require("dotenv");
 const ENV_PREFIX = ".env"; // Prefix for environment files
 const SCRIPT_NAME = "main_swap.js"; // Your swap script
 const MAX_CONCURRENT_TASKS = 10; // Max bots running at the same time
-const MIN_DELAY = 10; // Minimum delay in seconds (adjustable)
-const MAX_DELAY = 20; // Maximum delay in seconds (adjustable)
+const MIN_DELAY = 15; // Minimum delay in seconds (adjustable)
+const MAX_DELAY = 40; // Maximum delay in seconds (adjustable)
 
 // Get all .env files
 const envFiles = fs
